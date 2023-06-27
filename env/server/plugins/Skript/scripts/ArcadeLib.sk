@@ -1,0 +1,10 @@
+#       ArcadeLib
+#       By CaptainGarih / DISCORD: garih
+
+on load:
+
+    send "&aArcade&eLib &b| &aLoaded ArcadeLib.sk" to console
+
+on unload:
+
+    send "&aArcade&eLib &b| &cUnloaded ArcadeLib.sk" to console

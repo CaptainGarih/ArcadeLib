@@ -1,0 +1,220 @@
+[14:54:43] [Server thread/INFO]: Starting minecraft server version 1.9.4
+[14:54:43] [Server thread/INFO]: Loading properties
+[14:54:43] [Server thread/INFO]: Default game type: SURVIVAL
+[14:54:43] [Server thread/INFO]: This server is running Paper version git-Paper-775 (MC: 1.9.4) (Implementing API version 1.9.4-R0.1-SNAPSHOT)
+[14:54:43] [Server thread/INFO]: Unable to find file banned-players.json, creating it.
+[14:54:43] [Server thread/INFO]: Unable to find file banned-ips.json, creating it.
+[14:54:43] [Server thread/INFO]: Unable to find file ops.json, creating it.
+[14:54:43] [Server thread/INFO]: Unable to find file whitelist.json, creating it.
+[14:54:43] [Server thread/INFO]: Debug logging is disabled
+[14:54:43] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:54:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:54:43] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[14:54:43] [Server thread/INFO]: Generating keypair
+[14:54:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:54:43] [Server thread/INFO]: Using default channel type
+[14:54:43] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[14:54:43] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.7.0
+[14:54:43] [Server thread/INFO]: [ViaVersion] ViaVersion 4.7.0 is now loaded. Registering protocol transformers and injecting...
+[14:54:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[14:54:44] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[14:54:44] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[14:54:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[14:54:44] [Server thread/INFO]: [Skript] Loading Skript v2.6.4
+[14:54:44] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.7.0
+[14:54:44] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.3
+[14:54:44] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.3
+[14:54:44] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[14:54:44] [Server thread/INFO]: Preparing level "world"
+[14:54:44] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:54:44] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:54:44] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:54:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:54:44] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:54:44] [Server thread/INFO]: View Distance: 10
+[14:54:44] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:54:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:54:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:54:44] [Server thread/INFO]: Max Entity Collisions: 8
+[14:54:44] [Server thread/INFO]: Random Lighting Updates: false
+[14:54:44] [Server thread/INFO]: Mob Spawn Range: 4
+[14:54:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:54:44] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:54:44] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:54:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:54:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:54:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:54:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:54:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:54:44] [Server thread/INFO]: Structure Info Saving: true
+[14:54:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:54:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:54:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:54:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:54:44] [Server thread/INFO]: Max TNT Explosions: 100
+[14:54:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:54:45] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:54:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:54:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:54:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:54:45] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:54:45] [Server thread/INFO]: View Distance: 10
+[14:54:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:54:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:54:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:54:45] [Server thread/INFO]: Max Entity Collisions: 8
+[14:54:45] [Server thread/INFO]: Random Lighting Updates: false
+[14:54:45] [Server thread/INFO]: Mob Spawn Range: 4
+[14:54:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:54:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:54:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:54:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:54:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:54:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:54:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:54:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:54:45] [Server thread/INFO]: Structure Info Saving: true
+[14:54:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:54:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:54:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:54:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:54:45] [Server thread/INFO]: Max TNT Explosions: 100
+[14:54:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:54:45] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:54:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:54:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:54:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:54:45] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:54:45] [Server thread/INFO]: View Distance: 10
+[14:54:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:54:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:54:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:54:45] [Server thread/INFO]: Max Entity Collisions: 8
+[14:54:45] [Server thread/INFO]: Random Lighting Updates: false
+[14:54:45] [Server thread/INFO]: Mob Spawn Range: 4
+[14:54:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:54:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:54:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:54:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:54:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:54:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:54:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:54:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:54:45] [Server thread/INFO]: Structure Info Saving: true
+[14:54:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:54:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:54:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:54:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:54:45] [Server thread/INFO]: Max TNT Explosions: 100
+[14:54:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:54:45] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5608801278980129475)
+[14:54:46] [Server thread/INFO]: Preparing spawn area: 7%
+[14:54:47] [Server thread/INFO]: Preparing spawn area: 20%
+[14:54:48] [Server thread/INFO]: Preparing spawn area: 35%
+[14:54:48] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5608801278980129475)
+[14:54:49] [Server thread/INFO]: Preparing spawn area: 26%
+[14:54:50] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5608801278980129475)
+[14:54:51] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.7.0
+[14:54:51] [Server thread/INFO]: [Skript] Enabling Skript v2.6.4
+[14:54:51] [Server thread/INFO]: [Skript] Successfully generated the config and the example scripts.[m
+[14:54:52] [ForkJoinPool.commonPool-worker-9/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m You're currently running the latest stable version of Skript.[m
+[14:54:53] [Server thread/INFO]: [Skript] Loaded 15035 aliases in 1638ms[m
+[14:54:53] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~[m
+[14:54:53] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.7.0
+[14:54:53] [Server thread/INFO]: Done (9,039s)! For help, type "help" or "?"
+[14:54:53] [Server thread/INFO]: Timings Reset
+[14:54:53] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.9.3/4 (110)
+[14:54:53] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[14:54:53] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please consider updating it to at least Java 17 (your version is 1.8.0_361). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[14:54:53] [Server thread/INFO]: [Skript] Loading variables...[m
+[14:54:53] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds[m
+[14:54:53] [Server thread/INFO]: [Skript] All scripts loaded without errors.[m
+[14:54:53] [Server thread/INFO]: [Skript] No scripts were found, maybe you should write some ;)[m
+[14:54:53] [Server thread/INFO]: [Skript] Finished loading.[m
+[14:54:53] [Craft Scheduler Thread - 0/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[14:55:36] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+[14:55:36] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
+[14:55:36] [Server thread/INFO]: [0;33;22mAliases: [0;37;1mLists command aliases[m
+[14:55:36] [Server thread/INFO]: [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+[14:55:36] [Server thread/INFO]: [0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
+[14:55:36] [Server thread/INFO]: [0;33;22mSkript: [0;37;1mAll commands for Skript[m
+[14:55:36] [Server thread/INFO]: [0;33;22mViaVersion: [0;37;1mAll commands for ViaVersion[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/achievement: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/ban: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/ban-ip: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/banlist: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/blockdata: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/clear: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/clone: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/debug: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/defaultgamemode: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/deop: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/difficulty: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/effect: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/enchant: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/entitydata: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/execute: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/fill: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/gamemode: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/gamerule: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/give: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/help: [0;37;1mShows the help menu[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/kick: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/kill: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/list: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/me: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/minecraft:tell: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/op: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/pardon: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/pardon-ip: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/particle: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/playsound: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/replaceitem: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/restart: [0;37;1mRestarts the server[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/save-all: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/save-off: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/save-on: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/say: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/scoreboard: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/seed: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/setidletimeout: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/setworldspawn: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/skript: [0;37;1mSkript's main command. Type '/skript help' for more information.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/spawnpoint: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/spreadplayers: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/stats: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/stop: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/stopsound: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/summon: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/tell: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/testfor: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/testforblock: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/testforblocks: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/time: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/timings: [0;37;1mManages Spigot Timings data to see performance of the server.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/title: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/toggledownfall: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/tp: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/tps: [0;37;1mGets the current ticks per second for the server[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/trigger: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/viaversion: [0;37;1mShows ViaVersion Version and more.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/weather: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/whitelist: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/worldborder: [0;37;1mA Mojang provided command.[m
+[14:55:36] [Server thread/INFO]: [0;33;22m/xp: [0;37;1mA Mojang provided command.[m
+[14:55:44] [User Authenticator #1/INFO]: UUID of player CaptainGarih is 8595a1d7-5b69-47e4-af6e-b67c262cb628
+[14:55:44] [Server thread/INFO]: CaptainGarih[/127.0.0.1:53919] logged in with entity id 894 at ([world]259.5, 71.0, 234.5)
+[14:55:51] [Server thread/INFO]: Opped CaptainGarih
+[14:58:30] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22m[0;33;22mArcadeLib.sk[m[m...[m
+[14:58:30] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;32;1mLoaded ArcadeLib.sk[m
+[14:58:30] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m [0;32;1mSuccessfully reloaded [0;33;22m[0;33;22mArcadeLib.sk[m[0;32;1m. [0;37;22m([0;33;22m29ms[0;37;22m)[m
+[14:58:32] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22m[0;33;22mArcadeLib.sk[m[m...[m
+[14:58:32] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;31;1mUnloaded ArcadeLib.sk[m
+[14:58:32] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;32;1mLoaded ArcadeLib.sk[m
+[14:58:32] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m [0;32;1mSuccessfully reloaded [0;33;22m[0;33;22mArcadeLib.sk[m[0;32;1m. [0;37;22m([0;33;22m6ms[0;37;22m)[m
