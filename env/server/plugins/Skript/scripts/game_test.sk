@@ -9,6 +9,15 @@ command /creategame <text>:
         set {_return} to ArcadeLib_CreateGame(arg-1)
         send {_return} to player
 
+command /addteam <text> [<text>]:
+
+    permission: *
+    trigger:
+
+
+        set {_return} to ArcadeLib_AddTeam(arg-1, arg-2)
+        send {_return} to player
+
 command /purgedata:
 
     permission: *
