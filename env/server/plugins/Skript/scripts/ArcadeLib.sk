@@ -1,10 +1,63 @@
 #       ArcadeLib
 #       By CaptainGarih / DISCORD: garih
 
+options:
+
+    arcadelib.config.prefix: "&aArcade&eLib &b|"
+    arcadelib.config.prefix.error: "&aArcade&eLib &b| &cERROR &e|"
+    arcadelib.config.prefix.database: "&aArcade&eLib &b| &bDATABASE &e|"
+    arcadelib.version: "DEV-1.0.0a"
+
 on load:
 
-    send "&aArcade&eLib &b| &aLoaded ArcadeLib.sk" to console
+    send "&aArcade&eLib &b| &aLoaded ArcadeLib.sk &fVersion %{@arcadelib.version}%" to console
 
 on unload:
 
-    send "&aArcade&eLib &b| &cUnloaded ArcadeLib.sk" to console
+    send "&aArcade&eLib &b| &cUnloaded ArcadeLib.sk &fVersion %{@arcadelib.version}%" to console
+
+#=================================
+#       Libraries
+#=================================
+
+#Purge data
+function ArcadeLib_PurgeData() :: boolean:
+
+    loop {arcadelib.data.games?::*}:
+
+        send "%{@arcadelib.config.prefix.database}% &fDeleted &e%loop-value% &ffrom database." to console
+        remove loop-value from {arcadelib.data.games?::*}
+
+    clear {arcadelib.data.games?::*}
+
+    return true
+
+#Create a game
+#   game_name: Name of the game
+function ArcadeLib_CreateGame(game_name: text) :: boolean:
+
+    if {arcadelib.data.games?::*} contains {_game_name}:
+
+        send "%{@arcadelib.config.prefix.error}% &cI can't create the game &f%{_game_name}% &cbecause it already exists." to console
+        return false
+
+    set {arcadelib.data.games?::%{_game_name}%} to "%{_game_name}%"
+
+    send "%{@arcadelib.config.prefix}% &fAdded game &a%{arcadelib.data.games?::%{_game_name}%}% &fto ArcadeLib's data." to console
+
+    return true
+
+#=================================
+#       Main Command (Admin)
+#=================================
+
+command /arcadelib [<text>] [<text>] [<text>]:
+
+    permission: op
+    permission message: &cYou do not have the required permission to perform this command!
+
+    trigger:
+
+        if arg-1 is not set:
+
+            send "%{@arcadelib.config.prefix}% &fVersion %{@arcadelib.version}%" to player

@@ -1,0 +1,24 @@
+#       Testing script.
+
+command /creategame <text>:
+
+    permission: *
+    trigger:
+
+
+        set {_return} to ArcadeLib_CreateGame(arg-1)
+        send {_return} to player
+
+command /purgedata:
+
+    permission: *
+    trigger:
+
+        set {_return} to ArcadeLib_PurgeData()
+        send {_return} to player
+
+on load:
+
+    loop {arcadelib.data.games?::*}:
+
+        send loop-value to console
