@@ -3,4 +3,7 @@
 #
 # version: 2.6.4
 
+arcadelib.data.games?::test1, string, 80055465737431
+arcadelib.data.games?::test1::teams?::blue, string, 8004424C5545
+arcadelib.data.games?::test1::teams?::red, string, 8003524544
 
