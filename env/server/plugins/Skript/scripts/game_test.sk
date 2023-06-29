@@ -1,5 +1,14 @@
 #       Testing script.
 
+command /setteamspawn <text> <text>:
+
+    permission: *
+    trigger:
+
+        set {_loc} to player's location
+        set {_return} to ArcadeLib_SetTeamSpawn(arg-1, arg-2, {_loc})
+        send {_return} to player
+
 command /creategame <text>:
 
     permission: *
