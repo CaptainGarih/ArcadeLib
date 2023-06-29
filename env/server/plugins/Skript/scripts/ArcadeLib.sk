@@ -47,6 +47,21 @@ function ArcadeLib_CreateGame(game_name: text) :: boolean:
 
     return true
 
+#Define a game's Waiting lobby
+#   game_name: Name of the game
+#   lobby_loc: Location of game_name's lobby
+function ArcadeLib_SetGameLobby(game_name: text, lobby_loc: location) :: boolean:
+
+    if {arcadelib.data.games?::*} contains {_game_name}:
+
+        set {arcadelib.data.games?::%{_game_name}%::lobby} to {_lobby_loc}
+        send "%{@arcadelib.config.prefix.database}% &fAdded lobby of game &a%{arcadelib.data.games?::%{_game_name}%}% &fto ArcadeLib's data." to console
+        return true
+
+    else:
+
+        return false
+
 #Define a team's spawn for a game
 #   game_name: Name of the game
 #   team_name: Name of the team
@@ -58,7 +73,7 @@ function ArcadeLib_SetTeamSpawn(game_name: text, team_name: text, spawn_loc: loc
         if {arcadelib.data.games?::%{_game_name}%::teams?::*} contains {_team_name}:
 
             set {arcadelib.data.games?::%{_game_name}%::teams?::%{_team_name}%::spawn} to {_spawn_loc}
-            send "%{@arcadelib.config.prefix.database}% &fAdded team &a%{arcadelib.data.games?::%{_game_name}%::teams?::%{_team_name}%}%'s spawn &fto ArcadeLib's data for game &f%{_game_name}%&a." to console
+            send "%{@arcadelib.config.prefix.database}% &fAdded team &a%{arcadelib.data.games?::%{_game_name}%::teams?::%{_team_name}%}%'s spawn &fto ArcadeLib's data for game &a%{_game_name}%&f." to console
             return true
         
         else:
@@ -86,7 +101,7 @@ function ArcadeLib_AddTeam(game_name: text, team_name: text) :: boolean:
         else:
 
             set {arcadelib.data.games?::%{_game_name}%::teams?::%{_team_name}%} to "%{_team_name}%"
-            send "%{@arcadelib.config.prefix.database}% &fAdded team &a%{arcadelib.data.games?::%{_game_name}%::teams?::%{_team_name}%}% &fto ArcadeLib's data for game &f%{_game_name}%&a." to console
+            send "%{@arcadelib.config.prefix.database}% &fAdded team &a%{arcadelib.data.games?::%{_game_name}%::teams?::%{_team_name}%}% &fto ArcadeLib's data for game &a%{_game_name}%&f." to console
             return true
 
     else:   

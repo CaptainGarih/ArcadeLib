@@ -1,5 +1,14 @@
 #       Testing script.
 
+command /setgamelobby <text>:
+
+    permission: *
+    trigger:
+
+        set {_loc} to player's location
+        set {_return} to ArcadeLib_SetGameLobby(arg-1, {_loc})
+        send {_return} to player
+
 command /setteamspawn <text> <text>:
 
     permission: *
