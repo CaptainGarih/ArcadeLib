@@ -109,6 +109,79 @@ function ArcadeLib_AddTeam(game_name: text, team_name: text) :: boolean:
         send "%{@arcadelib.config.prefix.error}% &cI can't create the team &f%{_team_name}% &cbecause the game &f%{_game_name}% &cdoes not exist." to console
         return false
 
+#Add a player to a team
+#   game_name: Name of the game
+#   team_name: Name of the team
+#   player_name: Name of the player
+function ArcadeLib_AddPlayerToTeam(game_name: text, team_name: text, player_name: player) :: boolean:
+
+    if {arcadelib.data.games?::*} contains {_game_name}:
+
+        if {arcadelib.data.games?::%{_game_name}%::teams?::*} contains {_team_name}:
+
+            set {arcadelib.data.games?::%{_game_name}%::teams?::%{_team_name}%::players?::%{_player_name}%} to "%{_player_name}%"
+            send "%{@arcadelib.config.prefix.database}% &fAdded player &a%{arcadelib.data.games?::%{_game_name}%::teams?::%{_team_name}%::players?::%{_player_name}%}% &fto ArcadeLib's data for game &a%{_game_name}% &fin team &a%{arcadelib.data.games?::%{_game_name}%::teams?::%{_team_name}%}%&f." to console
+            return true
+
+        else:
+
+            set {arcadelib.data.games?::%{_game_name}%::teams?::%{_team_name}%} to "%{_team_name}%"
+            send "%{@arcadelib.config.prefix.database}% &cI did not find the requested team." to console
+            return true
+
+    else:
+
+        send "%{@arcadelib.config.prefix.error}% &cI can't find the game &f%{_game_name}% &cbecause the game &f%{_game_name}% &cdoes not exist." to console
+        return false
+
+#Remove a player from a team
+#   game_name: Name of the game
+#   team_name: Name of the team
+#   player_name: Name of the player
+function ArcadeLib_RemovePlayerFromTeam(game_name: text, team_name: text, player_name: player) :: boolean:
+
+    if {arcadelib.data.games?::*} contains {_game_name}:
+
+        if {arcadelib.data.games?::%{_game_name}%::teams?::*} contains {_team_name}:
+
+            delete {arcadelib.data.games?::%{_game_name}%::teams?::%{_team_name}%::players?::%{_player_name}%}
+            send "%{@arcadelib.config.prefix.database}% &fRemoved player &a%{arcadelib.data.games?::%{_game_name}%::teams?::%{_team_name}%::players?::%{_player_name}%}% &ffrom ArcadeLib's data for game &a%{_game_name}% &fin team &a%{arcadelib.data.games?::%{_game_name}%::teams?::%{_team_name}%}%&f." to console
+            return true
+
+        else:
+
+            set {arcadelib.data.games?::%{_game_name}%::teams?::%{_team_name}%} to "%{_team_name}%"
+            send "%{@arcadelib.config.prefix.database}% &cI did not find the requested team." to console
+            return true
+
+    else:
+
+        send "%{@arcadelib.config.prefix.error}% &cI can't find the game &f%{_game_name}% &cbecause the game &f%{_game_name}% &cdoes not exist." to console
+        return false
+
+#Get players in a team
+#   game_name: Name of the game
+#   team_name: Name of the team
+function ArcadeLib_GetPlayersInTeam(game_name: text, team_name: text) :: text:
+
+    if {arcadelib.data.games?::*} contains {_game_name}:
+
+        if {arcadelib.data.games?::%{_game_name}%::teams?::*} contains {_team_name}:
+
+            set {_players::*} to {arcadelib.data.games?::%{_game_name}%::teams?::%{_team_name}%::players?::*}
+            return {_players?::*}
+
+        else:
+
+            set {arcadelib.data.games?::%{_game_name}%::teams?::%{_team_name}%} to "%{_team_name}%"
+            send "%{@arcadelib.config.prefix.database}% &cI did not find the requested team." to console
+            return "true"
+
+    else:
+
+        send "%{@arcadelib.config.prefix.error}% &cI can't find the game &f%{_game_name}% &cbecause the game &f%{_game_name}% &cdoes not exist." to console
+        return "false"
+
 #=================================
 #       Main Command (Admin)
 #=================================

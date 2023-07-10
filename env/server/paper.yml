@@ -10,15 +10,6 @@
 # Paper Forums: https://aquifermc.org/ 
 
 config-version: 10
-settings:
-  sleep-between-chunk-saves: false
-  enable-player-collisions: true
-  limit-player-interactions: true
-  region-file-cache-size: 256
-  save-empty-scoreboard-teams: false
-  load-permissions-yml-before-plugins: true
-  min-chunk-load-threads: 2
-  set-health-before-death-event: false
 timings:
   enabled: true
   verbose: true
@@ -28,25 +19,37 @@ timings:
   - settings.bungeecord-addresses
   history-interval: 300
   history-length: 3600
+settings:
+  load-permissions-yml-before-plugins: true
+  set-health-before-death-event: false
+  min-chunk-load-threads: 2
+  enable-player-collisions: true
+  limit-player-interactions: true
+  save-empty-scoreboard-teams: false
+  region-file-cache-size: 256
+  sleep-between-chunk-saves: false
 world-settings:
   default:
     verbose: false
+    keep-spawn-loaded-range: 8
+    allow-non-player-entities-on-scoreboards: false
+    nether-ceiling-void-damage: false
+    frosted-ice:
+      enabled: true
+      delay:
+        min: 20
+        max: 40
+    baby-zombie-movement-speed: 0.5
+    all-chunks-are-slime-chunks: false
+    allow-leashing-undead-horse: false
+    grass-spread-tick-rate: 1
+    enable-old-tnt-cannon-behaviors: false
     non-player-arrow-despawn-rate: -1
     disable-explosion-knockback: false
     game-mechanics:
       disable-chest-cat-detection: false
       disable-end-credits: false
-    all-chunks-are-slime-chunks: false
-    baby-zombie-movement-speed: 0.5
-    allow-leashing-undead-horse: false
     use-hopper-check: false
-    disable-thunder: false
-    container-update-tick-rate: 1
-    keep-spawn-loaded: true
-    skeleton-horse-thunder-spawn-chance: -1.0
-    fire-physics-event-for-redstone: false
-    disable-ice-and-snow: false
-    allow-block-location-tab-completion: true
     generator-settings:
       canyon: true
       caves: true
@@ -58,34 +61,25 @@ world-settings:
       temple: true
       village: true
       flat-bedrock: false
+    allow-block-location-tab-completion: true
     disable-teleportation-suffocation-check: false
-    use-vanilla-world-scoreboard-name-coloring: false
-    queue-light-updates: false
-    spawner-nerfed-mobs-should-jump: false
-    optimize-explosions: false
-    mob-spawner-tick-rate: 1
-    lava-flow-speed:
-      normal: 30
-      nether: 10
-    fast-drain:
-      lava: false
-      water: false
-    falling-block-height-nerf: 0
-    tnt-entity-height-nerf: 0
-    despawn-ranges:
-      soft: 32
-      hard: 128
-    fishing-time-range:
-      MinimumTicks: 100
-      MaximumTicks: 900
     use-chunk-inhabited-timer: true
-    max-growth-height:
-      cactus: 3
-      reeds: 3
-    water-over-lava-flow-speed: 5
+    container-update-tick-rate: 1
+    keep-spawn-loaded: true
+    fire-physics-event-for-redstone: false
+    disable-ice-and-snow: false
+    skeleton-horse-thunder-spawn-chance: -1.0
+    disable-thunder: false
+    portal-search-radius: 128
+    spawner-nerfed-mobs-should-jump: false
+    mob-spawner-tick-rate: 1
+    use-vanilla-world-scoreboard-name-coloring: false
+    optimize-explosions: false
+    queue-light-updates: false
     squid-spawn-height:
       minimum: 45.0
       maximum: 63.0
+    water-over-lava-flow-speed: 5
     lootables:
       auto-replenish: false
       restrict-player-reloot: true
@@ -93,14 +87,20 @@ world-settings:
       max-refills: -1
       refresh-min: 12h
       refresh-max: 2d
-    portal-search-radius: 128
-    keep-spawn-loaded-range: 8
-    frosted-ice:
-      enabled: true
-      delay:
-        min: 20
-        max: 40
-    nether-ceiling-void-damage: false
-    allow-non-player-entities-on-scoreboards: false
-    enable-old-tnt-cannon-behaviors: false
-    grass-spread-tick-rate: 1
+    despawn-ranges:
+      soft: 32
+      hard: 128
+    max-growth-height:
+      cactus: 3
+      reeds: 3
+    falling-block-height-nerf: 0
+    tnt-entity-height-nerf: 0
+    lava-flow-speed:
+      normal: 30
+      nether: 10
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 900
+    fast-drain:
+      lava: false
+      water: false

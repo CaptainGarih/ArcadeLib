@@ -1,5 +1,29 @@
 #       Testing script.
 
+command /addplayertoteam <text> <text> <player>:
+
+    permission: *
+    trigger:
+
+        set {_return} to ArcadeLib_AddPlayerToTeam(arg-1, arg-2, arg-3)
+        send {_return} to player
+
+command /removeplayertoteam <text> <text> <player>:
+
+    permission: *
+    trigger:
+
+        set {_return} to ArcadeLib_RemovePlayerFromTeam(arg-1, arg-2, arg-3)
+        send {_return} to player
+
+command /listplayersinteam <text> <text>:
+
+    permission: *
+    trigger:
+
+        set {_return} to ArcadeLib_GetPlayersInTeam(arg-1, arg-2)
+        send {_return} to player
+
 command /setgamelobby <text>:
 
     permission: *

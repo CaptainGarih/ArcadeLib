@@ -1,165 +1,178 @@
-[16:55:12] [Server thread/INFO]: Starting minecraft server version 1.9.4
-[16:55:12] [Server thread/INFO]: Loading properties
-[16:55:12] [Server thread/INFO]: Default game type: SURVIVAL
-[16:55:12] [Server thread/INFO]: This server is running Paper version git-Paper-775 (MC: 1.9.4) (Implementing API version 1.9.4-R0.1-SNAPSHOT)
-[16:55:13] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:55:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:55:13] [Server thread/INFO]: Debug logging is disabled
-[16:55:13] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[16:55:13] [Server thread/INFO]: Generating keypair
-[16:55:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:55:13] [Server thread/INFO]: Using default channel type
-[16:55:13] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[16:55:13] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.7.0
-[16:55:13] [Server thread/INFO]: [ViaVersion] ViaVersion 4.7.0 is now loaded. Registering protocol transformers and injecting...
-[16:55:13] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[16:55:13] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[16:55:13] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[16:55:13] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[16:55:14] [Server thread/INFO]: [Skript] Loading Skript v2.6.4
-[16:55:14] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.7.0
-[16:55:14] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.3
-[16:55:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:55:14] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.3
-[16:55:14] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[16:55:14] [Server thread/INFO]: Preparing level "world"
-[16:55:14] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:55:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:55:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:55:14] [Server thread/INFO]: View Distance: 10
-[16:55:14] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:55:14] [Server thread/INFO]: Max TNT Explosions: 100
-[16:55:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:55:14] [Server thread/INFO]: Mob Spawn Range: 4
-[16:55:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:55:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:55:14] [Server thread/INFO]: Structure Info Saving: true
-[16:55:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:55:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:55:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Random Lighting Updates: false
-[16:55:14] [Server thread/INFO]: Max Entity Collisions: 8
-[16:55:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:55:14] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:55:14] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:55:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:55:14] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:55:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:55:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:55:14] [Server thread/INFO]: View Distance: 10
-[16:55:14] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:55:14] [Server thread/INFO]: Max TNT Explosions: 100
-[16:55:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:55:14] [Server thread/INFO]: Mob Spawn Range: 4
-[16:55:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:55:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:55:14] [Server thread/INFO]: Structure Info Saving: true
-[16:55:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:55:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:55:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Random Lighting Updates: false
-[16:55:14] [Server thread/INFO]: Max Entity Collisions: 8
-[16:55:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:55:14] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:55:14] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:55:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:55:14] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:55:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:55:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:55:14] [Server thread/INFO]: View Distance: 10
-[16:55:14] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:55:14] [Server thread/INFO]: Max TNT Explosions: 100
-[16:55:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:55:14] [Server thread/INFO]: Mob Spawn Range: 4
-[16:55:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:55:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:55:14] [Server thread/INFO]: Structure Info Saving: true
-[16:55:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:55:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:55:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:55:14] [Server thread/INFO]: Random Lighting Updates: false
-[16:55:14] [Server thread/INFO]: Max Entity Collisions: 8
-[16:55:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:55:14] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:55:14] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:55:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:55:14] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1613475745349616095)
-[16:55:14] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5608801278980129475)
-[16:55:14] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5608801278980129475)
-[16:55:14] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.7.0
-[16:55:15] [Server thread/INFO]: [Skript] Enabling Skript v2.6.4
-[16:55:15] [ForkJoinPool.commonPool-worker-9/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m You're currently running the latest stable version of Skript.[m
-[16:55:16] [Server thread/INFO]: [Skript] Loaded 15035 aliases in 1622ms[m
-[16:55:17] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~[m
-[16:55:17] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.7.0
-[16:55:17] [Server thread/INFO]: Done (3,274s)! For help, type "help" or "?"
-[16:55:17] [Server thread/INFO]: Timings Reset
-[16:55:17] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.9.3/4 (110)
-[16:55:17] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
-[16:55:17] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please consider updating it to at least Java 17 (your version is 1.8.0_361). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
-[16:55:17] [Server thread/INFO]: [Skript] Loading variables...[m
-[16:55:17] [Server thread/INFO]: [Skript] Loaded 3 variables in 0.0 seconds[m
-[16:55:17] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;32;1mLoaded ArcadeLib.sk [0;37;1mVersion DEV-1.0.0a[m
-[16:55:17] [Server thread/INFO]: Test1[m
-[16:55:17] [Server thread/INFO]: [Skript] All scripts loaded without errors.[m
-[16:55:17] [Server thread/INFO]: [Skript] Loaded 2 scripts with a total of 3 triggers and 5 commands in 0.13 seconds[m
-[16:55:17] [Server thread/INFO]: [Skript] Finished loading.[m
-[16:55:17] [Craft Scheduler Thread - 0/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[16:55:23] [User Authenticator #1/INFO]: UUID of player CaptainGarih is 8595a1d7-5b69-47e4-af6e-b67c262cb628
-[16:55:23] [Server thread/INFO]: CaptainGarih[/127.0.0.1:63818] logged in with entity id 14 at ([world]680.5, 4.0, 412.5)
-[16:55:34] [Server thread/INFO]: CaptainGarih lost connection: Disconnected
-[16:55:34] [Server thread/INFO]: CaptainGarih left the game.
-[16:55:43] [User Authenticator #2/INFO]: UUID of player CaptainGarih is 8595a1d7-5b69-47e4-af6e-b67c262cb628
-[16:55:43] [Server thread/INFO]: CaptainGarih[/127.0.0.1:63838] logged in with entity id 4106 at ([world]680.2846684794083, 4.0, 413.446946345212)
-[16:55:45] [Server thread/INFO]: CaptainGarih lost connection: Disconnected
-[16:55:45] [Server thread/INFO]: CaptainGarih left the game.
-[16:55:46] [User Authenticator #3/INFO]: UUID of player CaptainGarih is 8595a1d7-5b69-47e4-af6e-b67c262cb628
-[16:55:46] [Server thread/INFO]: CaptainGarih[/127.0.0.1:63852] logged in with entity id 4920 at ([world]680.2846684794083, 4.0, 413.446946345212)
-[16:55:48] [Server thread/INFO]: CaptainGarih lost connection: Disconnected
-[16:55:48] [Server thread/INFO]: CaptainGarih left the game.
-[16:55:49] [User Authenticator #4/INFO]: UUID of player CaptainGarih is 8595a1d7-5b69-47e4-af6e-b67c262cb628
-[16:55:49] [Server thread/INFO]: CaptainGarih[/127.0.0.1:63862] logged in with entity id 5507 at ([world]680.2846684794083, 4.0, 413.446946345212)
-[16:55:58] [Server thread/INFO]: CaptainGarih issued server command: /gamemode creative
-[16:55:58] [Server thread/INFO]: [CaptainGarih: Set own game mode to Creative Mode]
-[16:56:00] [Server thread/INFO]: CaptainGarih issued server command: /tp CaptainGarih 0 80 0
-[16:56:00] [Server thread/INFO]: [CaptainGarih: Teleported CaptainGarih to 0.5, 80.0, 0.5]
-[16:56:06] [Server thread/INFO]: CaptainGarih issued server command: /tp CaptainGarih 0 200 0
-[16:56:06] [Server thread/INFO]: [CaptainGarih: Teleported CaptainGarih to 0.5, 200.0, 0.5]
-[16:56:10] [Server thread/INFO]: CaptainGarih issued server command: /tp CaptainGarih 0 150 0
-[16:56:10] [Server thread/INFO]: [CaptainGarih: Teleported CaptainGarih to 0.5, 150.0, 0.5]
-[16:56:32] [Server thread/INFO]: CaptainGarih issued server command: /setteamspawn Test1 BLUE
-[16:56:32] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;36;1mDATABASE [0;33;1m| [0;37;1mAdded team [0;32;1mBLUE's spawn [0;37;1mto ArcadeLib's data for game [0;37;1mTest1[0;32;1m.[m
-[16:56:49] [Server thread/INFO]: CaptainGarih issued server command: /setteamspawn Test1 RED
-[16:56:49] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;36;1mDATABASE [0;33;1m| [0;37;1mAdded team [0;32;1mRED's spawn [0;37;1mto ArcadeLib's data for game [0;37;1mTest1[0;32;1m.[m
-[17:01:32] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22m[0;33;22mArcadeLib.sk[m[m...[m
-[17:01:32] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;31;1mUnloaded ArcadeLib.sk [0;37;1mVersion DEV-1.0.0a[m
-[17:01:32] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;32;1mLoaded ArcadeLib.sk [0;37;1mVersion DEV-1.0.0a[m
-[17:01:32] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m [0;32;1mSuccessfully reloaded [0;33;22m[0;33;22mArcadeLib.sk[m[0;32;1m. [0;37;22m([0;33;22m27ms[0;37;22m)[m
-[17:02:20] [Server thread/INFO]: CaptainGarih issued server command: /sk reload game_test
-[17:02:20] [Server thread/INFO]: Test1[m
-[17:02:24] [Server thread/INFO]: CaptainGarih issued server command: /tp CaptainGarih 0 202 0
-[17:02:24] [Server thread/INFO]: [CaptainGarih: Teleported CaptainGarih to 0.5, 202.0, 0.5]
-[17:02:33] [Server thread/INFO]: CaptainGarih issued server command: /setgamelobby Test
-[17:02:35] [Server thread/INFO]: CaptainGarih issued server command: /setgamelobby Test1
-[17:02:35] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;36;1mDATABASE [0;33;1m| [0;37;1mAdded lobby of game [0;32;1mTest1 [0;37;1mto ArcadeLib's data.[m
+[14:09:57] [Server thread/INFO]: Starting minecraft server version 1.9.4
+[14:09:57] [Server thread/INFO]: Loading properties
+[14:09:57] [Server thread/INFO]: Default game type: SURVIVAL
+[14:09:57] [Server thread/INFO]: This server is running Paper version git-Paper-775 (MC: 1.9.4) (Implementing API version 1.9.4-R0.1-SNAPSHOT)
+[14:09:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:09:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:09:57] [Server thread/INFO]: Debug logging is disabled
+[14:09:57] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[14:09:57] [Server thread/INFO]: Generating keypair
+[14:09:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:09:57] [Server thread/INFO]: Using default channel type
+[14:09:57] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[14:09:57] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.7.0
+[14:09:57] [Server thread/INFO]: [ViaVersion] ViaVersion 4.7.0 is now loaded. Registering protocol transformers and injecting...
+[14:09:58] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[14:09:58] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[14:09:58] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[14:09:58] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[14:09:58] [Server thread/INFO]: [Skript] Loading Skript v2.6.4
+[14:09:58] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.7.0
+[14:09:58] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.3
+[14:09:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:09:58] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.3
+[14:09:58] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[14:09:58] [Server thread/INFO]: Preparing level "world"
+[14:09:58] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:09:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:09:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:09:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:09:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:09:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:09:58] [Server thread/INFO]: View Distance: 10
+[14:09:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:09:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:09:58] [Server thread/INFO]: Max Entity Collisions: 8
+[14:09:58] [Server thread/INFO]: Mob Spawn Range: 4
+[14:09:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:09:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:09:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:09:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:09:58] [Server thread/INFO]: Random Lighting Updates: false
+[14:09:58] [Server thread/INFO]: Structure Info Saving: true
+[14:09:58] [Server thread/INFO]: Max TNT Explosions: 100
+[14:09:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:09:58] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:09:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:09:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:09:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:09:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:09:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:09:58] [Server thread/INFO]: View Distance: 10
+[14:09:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:09:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:09:58] [Server thread/INFO]: Max Entity Collisions: 8
+[14:09:58] [Server thread/INFO]: Mob Spawn Range: 4
+[14:09:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:09:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:09:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:09:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:09:58] [Server thread/INFO]: Random Lighting Updates: false
+[14:09:58] [Server thread/INFO]: Structure Info Saving: true
+[14:09:58] [Server thread/INFO]: Max TNT Explosions: 100
+[14:09:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:09:58] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:09:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:09:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:09:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:09:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:09:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:09:58] [Server thread/INFO]: View Distance: 10
+[14:09:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:09:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:09:58] [Server thread/INFO]: Max Entity Collisions: 8
+[14:09:58] [Server thread/INFO]: Mob Spawn Range: 4
+[14:09:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:09:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:09:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:09:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:09:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:09:58] [Server thread/INFO]: Random Lighting Updates: false
+[14:09:58] [Server thread/INFO]: Structure Info Saving: true
+[14:09:58] [Server thread/INFO]: Max TNT Explosions: 100
+[14:09:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:09:58] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1613475745349616095)
+[14:09:59] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5608801278980129475)
+[14:09:59] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5608801278980129475)
+[14:09:59] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.7.0
+[14:09:59] [Server thread/INFO]: [Skript] Enabling Skript v2.6.4
+[14:10:00] [ForkJoinPool.commonPool-worker-9/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m You're currently running the latest stable version of Skript.[m
+[14:10:01] [Server thread/INFO]: [Skript] Loaded 15035 aliases in 1680ms[m
+[14:10:01] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~[m
+[14:10:01] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.7.0
+[14:10:01] [Server thread/INFO]: Done (3,354s)! For help, type "help" or "?"
+[14:10:01] [Server thread/INFO]: Timings Reset
+[14:10:01] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.9.3/4 (110)
+[14:10:01] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[14:10:01] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please consider updating it to at least Java 17 (your version is 1.8.0_361). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[14:10:02] [Server thread/INFO]: [Skript] Loading variables...[m
+[14:10:02] [Server thread/INFO]: [Skript] Loaded 3 variables in 0.0 seconds[m
+[14:10:02] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;32;1mLoaded ArcadeLib.sk [0;37;1mVersion DEV-1.0.0a[m
+[14:10:02] [Server thread/INFO]: Test1[m
+[14:10:02] [Server thread/INFO]: [Skript] All scripts loaded without errors.[m
+[14:10:02] [Server thread/INFO]: [Skript] Loaded 2 scripts with a total of 3 triggers and 6 commands in 0.12 seconds[m
+[14:10:02] [Server thread/INFO]: [Skript] Finished loading.[m
+[14:10:02] [Craft Scheduler Thread - 0/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[14:10:11] [User Authenticator #1/INFO]: UUID of player CaptainGarih is 8595a1d7-5b69-47e4-af6e-b67c262cb628
+[14:10:11] [Server thread/INFO]: CaptainGarih[/127.0.0.1:62764] logged in with entity id 16 at ([world]-29.23525504595718, 201.0, 0.6031434273155359)
+[14:15:25] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22m[0;33;22mArcadeLib.sk[m[m...[m
+[14:15:25] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;31;1mUnloaded ArcadeLib.sk [0;37;1mVersion DEV-1.0.0a[m
+[14:15:25] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;32;1mLoaded ArcadeLib.sk [0;37;1mVersion DEV-1.0.0a[m
+[14:15:25] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m [0;32;1mSuccessfully reloaded [0;33;22m[0;33;22mArcadeLib.sk[m[0;32;1m. [0;37;22m([0;33;22m43ms[0;37;22m)[m
+[14:20:05] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22m[0;33;22mArcadeLib.sk[m[m...[m
+[14:20:05] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;31;1mUnloaded ArcadeLib.sk [0;37;1mVersion DEV-1.0.0a[m
+[14:20:05] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;32;1mLoaded ArcadeLib.sk [0;37;1mVersion DEV-1.0.0a[m
+[14:20:05] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m [0;32;1mSuccessfully reloaded [0;33;22m[0;33;22mArcadeLib.sk[m[0;32;1m. [0;37;22m([0;33;22m37ms[0;37;22m)[m
+[14:23:24] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22m[0;33;22mArcadeLib.sk[m[m...[m
+[14:23:24] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;31;1mUnloaded ArcadeLib.sk [0;37;1mVersion DEV-1.0.0a[m
+[14:23:24] [Server thread/INFO]: [0;31;1m[21mLine 172:[0;37;22m (ArcadeLib.sk)[m[m
+[14:23:24] [Server thread/INFO]: [0;31;1m    This function is defined to only return a single text, but this return statement can return multiple values.[m[m
+[14:23:24] [Server thread/INFO]: [0;33;22m    Line: [0;37;22mreturn {_players?::*}[m[m
+[14:23:24] [Server thread/INFO]:  [m[m
+[14:23:24] [Server thread/INFO]: [0;31;1m[21mLine 178:[0;37;22m (ArcadeLib.sk)[m[m
+[14:23:24] [Server thread/INFO]: [0;31;1m    This function is declared to return a text, but 'true' is not of that type.[m[m
+[14:23:24] [Server thread/INFO]: [0;33;22m    Line: [0;37;22mreturn true[m[m
+[14:23:24] [Server thread/INFO]:  [m[m
+[14:23:24] [Server thread/INFO]: [0;31;1m[21mLine 183:[0;37;22m (ArcadeLib.sk)[m[m
+[14:23:24] [Server thread/INFO]: [0;31;1m    This function is declared to return a text, but 'false' is not of that type.[m[m
+[14:23:24] [Server thread/INFO]: [0;33;22m    Line: [0;37;22mreturn false[m[m
+[14:23:24] [Server thread/INFO]:  [m[m
+[14:23:24] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;32;1mLoaded ArcadeLib.sk [0;37;1mVersion DEV-1.0.0a[m
+[14:23:24] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m [0;31;22m[0;31;1mEncountered [0;33;22m3 [0;31;1merrors while reloading [0;33;22m[0;33;22mArcadeLib.sk[m[0;31;1m! [0;37;22m([0;33;22m39ms[0;37;22m)[m
+[14:23:39] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22m[0;33;22mArcadeLib.sk[m[m...[m
+[14:23:39] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;31;1mUnloaded ArcadeLib.sk [0;37;1mVersion DEV-1.0.0a[m
+[14:23:39] [Server thread/INFO]: [0;31;1m[21mLine 172:[0;37;22m (ArcadeLib.sk)[m[m
+[14:23:39] [Server thread/INFO]: [0;31;1m    This function is defined to only return a single text, but this return statement can return multiple values.[m[m
+[14:23:39] [Server thread/INFO]: [0;33;22m    Line: [0;37;22mreturn {_players?::*}[m[m
+[14:23:39] [Server thread/INFO]:  [m[m
+[14:23:39] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;32;1mLoaded ArcadeLib.sk [0;37;1mVersion DEV-1.0.0a[m
+[14:23:39] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m [0;31;22m[0;31;1mEncountered [0;33;22m1 [0;31;1merror while reloading [0;33;22m[0;33;22mArcadeLib.sk[m[0;31;1m! [0;37;22m([0;33;22m43ms[0;37;22m)[m
+[14:24:34] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22m[0;33;22mArcadeLib.sk[m[m...[m
+[14:24:34] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;31;1mUnloaded ArcadeLib.sk [0;37;1mVersion DEV-1.0.0a[m
+[14:24:34] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;32;1mLoaded ArcadeLib.sk [0;37;1mVersion DEV-1.0.0a[m
+[14:24:34] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m [0;32;1mSuccessfully reloaded [0;33;22m[0;33;22mArcadeLib.sk[m[0;32;1m. [0;37;22m([0;33;22m46ms[0;37;22m)[m
+[14:26:54] [Server thread/INFO]: CaptainGarih issued server command: /sk reload game_test.sk
+[14:26:54] [Server thread/INFO]: Test1[m
+[14:27:15] [Server thread/INFO]: CaptainGarih issued server command: /sk reload game_test.sk
+[14:27:15] [Server thread/INFO]: Test1[m
+[14:36:46] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22m[0;33;22mArcadeLib.sk[m[m...[m
+[14:36:46] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;31;1mUnloaded ArcadeLib.sk [0;37;1mVersion DEV-1.0.0a[m
+[14:36:46] [Server thread/INFO]: [0;31;1m[21mLine 172:[0;37;22m (ArcadeLib.sk)[m[m
+[14:36:46] [Server thread/INFO]: [0;31;1m    This function is defined to only return a single text, but this return statement can return multiple values.[m[m
+[14:36:46] [Server thread/INFO]: [0;33;22m    Line: [0;37;22mreturn {_players?::*}[m[m
+[14:36:46] [Server thread/INFO]:  [m[m
+[14:36:46] [Server thread/INFO]: [0;32;1mArcade[0;33;1mLib [0;36;1m| [0;32;1mLoaded ArcadeLib.sk [0;37;1mVersion DEV-1.0.0a[m
+[14:36:46] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m [0;31;22m[0;31;1mEncountered [0;33;22m1 [0;31;1merror while reloading [0;33;22m[0;33;22mArcadeLib.sk[m[0;31;1m! [0;37;22m([0;33;22m33ms[0;37;22m)[m
